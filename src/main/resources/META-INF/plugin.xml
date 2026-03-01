@@ -1,0 +1,51 @@
+<idea-plugin>
+    <id>com.themes.umber</id>
+    <name>Umber</name>
+    <vendor>Theme Workshop</vendor>
+    <description><![CDATA[
+        <h2>Umber — A Warm Theme Family</h2>
+        <p>Four carefully crafted variants built around warm, earthy tones and muted syntax highlighting.</p>
+
+        <h3>Variants</h3>
+        <ul>
+            <li><b>Espresso</b> — Rich brown dark theme (<code>#302b26</code>)</li>
+            <li><b>Charcoal</b> — Warm grey dark theme (<code>#2d2a27</code>)</li>
+            <li><b>Olive</b> — Forest green dark theme (<code>#263020</code>)</li>
+            <li><b>Light</b> — Warm beige light theme (<code>#f5f0e8</code>) with background-highlight syntax</li>
+        </ul>
+
+        <h3>Design</h3>
+        <ul>
+            <li>Muted keywords that don't compete with your code</li>
+            <li>Soft accent color (<code>#6699CC</code>) for functions and links</li>
+            <li>Warm, low-fatigue backgrounds across all UI surfaces</li>
+            <li>Light variant uses background highlighting instead of text color for syntax</li>
+        </ul>
+
+        <h3>Accessibility</h3>
+        <ul>
+            <li>WCAG AA contrast (4.5:1) on all syntax tokens</li>
+            <li>Colorblind-safe palette — blue vs warm/amber axis, no red-vs-green reliance</li>
+            <li>Errors indicated by underlines, not color alone</li>
+        </ul>
+
+        <p>Tuned for <b>TypeScript</b> and <b>Go</b>, with solid defaults for JSON, YAML, CSS, HTML, and Markdown.</p>
+    ]]></description>
+    <change-notes><![CDATA[
+        <h3>1.0.0</h3>
+        <ul>
+            <li>Initial release with four variants: Espresso, Charcoal, Olive, Light</li>
+            <li>Full UI theming — editor, sidebar, tabs, tool windows, status bar, popups, buttons, inputs, scrollbars</li>
+            <li>Complete syntax highlighting with WCAG AA contrast compliance</li>
+            <li>Language-specific tuning for TypeScript and Go</li>
+            <li>Diff viewer, terminal ANSI colors, and VCS annotation colors</li>
+        </ul>
+    ]]></change-notes>
+    <depends>com.intellij.modules.platform</depends>
+    <extensions defaultExtensionNs="com.intellij">
+        <themeProvider id="com.themes.umber.light" path="/themes/umber-light.theme.json"/>
+        <themeProvider id="com.themes.umber.espresso" path="/themes/umber-espresso.theme.json"/>
+        <themeProvider id="com.themes.umber.charcoal" path="/themes/umber-charcoal.theme.json"/>
+        <themeProvider id="com.themes.umber.olive" path="/themes/umber-olive.theme.json"/>
+    </extensions>
+</idea-plugin>

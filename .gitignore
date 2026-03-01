@@ -1,0 +1,10 @@
+.gradle/
+build/
+.intellijPlatform/
+.idea/
+*.iml
+.DS_Store
+.claude/
+
+# Keep gradle wrapper jar
+!gradle/wrapper/gradle-wrapper.jar

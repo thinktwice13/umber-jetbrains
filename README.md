@@ -9,27 +9,38 @@ A warm, minimalistic theme family for JetBrains IDEs.
 
 | Variant   | Type  | Background | Description                              |
 |-----------|-------|------------|------------------------------------------|
-| Espresso  | Dark  | `#302b26`  | Rich brown — coffee and mahogany         |
+| Espresso  | Dark  | `#332c25`  | Rich brown — coffee and mahogany         |
 | Charcoal  | Dark  | `#2d2a27`  | Warm grey — stone and driftwood          |
-| Olive     | Dark  | `#263020`  | Forest green — moss and pine             |
+| Olive     | Dark  | `#282f22`  | Olive green — moss and earth             |
 | Light     | Light | `#f5f0e8`  | Warm beige — parchment and linen         |
+| Ivory     | Light | `#faf8f3`  | Morning light — bright, gentle warmth    |
+| Parchment | Light | `#f7f5f0`  | Old book paper — quiet and neutral       |
+| Cream     | Light | `#f8f7f2`  | Afternoon sun — soft yellow warmth       |
 
 ## Screenshots
 
-<!-- Screenshots coming soon. To contribute, open an issue with a screenshot of your setup! -->
-<!--
+<!-- Replace placeholder paths with actual screenshots -->
+
 ### Espresso
-![Espresso](screenshots/espresso.png)
+<!-- ![Espresso](screenshots/espresso.png) -->
 
 ### Charcoal
-![Charcoal](screenshots/charcoal.png)
+<!-- ![Charcoal](screenshots/charcoal.png) -->
 
 ### Olive
-![Olive](screenshots/olive.png)
+<!-- ![Olive](screenshots/olive.png) -->
 
 ### Light
-![Light](screenshots/light.png)
--->
+<!-- ![Light](screenshots/light.png) -->
+
+### Ivory
+<!-- ![Ivory](screenshots/ivory.png) -->
+
+### Parchment
+<!-- ![Parchment](screenshots/parchment.png) -->
+
+### Cream
+<!-- ![Cream](screenshots/cream.png) -->
 
 ## Design Philosophy
 
@@ -38,7 +49,7 @@ Umber is built around warm, earthy tones that reduce eye fatigue during long cod
 - **Muted keywords** — keywords are desaturated so they don't compete with identifiers and values
 - **Soft accent** — functions and links use a calm steel blue (`#6699CC`) as the primary accent
 - **Warm surfaces** — every UI surface (sidebar, tabs, popups, status bar) uses tinted backgrounds instead of neutral greys
-- **Light variant** — uses background highlighting to mark syntax regions rather than coloring text, inspired by the Alabaster approach
+- **Light variants** — use background highlighting to mark syntax regions rather than coloring text, inspired by the Alabaster approach
 
 ## Accessibility
 
@@ -64,7 +75,7 @@ Solid defaults for: JSON, YAML, CSS, HTML, Markdown.
 ### Build from source
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/umber-jetbrains.git
+git clone https://github.com/thinktwice13/umber-jetbrains.git
 cd umber-jetbrains
 ./gradlew buildPlugin
 ```
@@ -75,6 +86,12 @@ The plugin ZIP will be at `build/distributions/umber.zip`.
 
 Any JetBrains IDE built on IntelliJ Platform **2024.3+** (build 243+):
 IntelliJ IDEA, WebStorm, GoLand, PyCharm, RustRover, CLion, PhpStorm, Rider, DataGrip, and others.
+
+**Islands UI**: Native support for the new Islands UI layout in JetBrains **2025.3+**. The same plugin ZIP works on both classic and Islands UI — unknown theme keys are silently ignored on older builds.
+
+## Also Available For
+
+- **[Ghostty](https://github.com/thinktwice13/umber-ghostty)** — matching terminal theme
 
 ## Project Structure
 
@@ -90,12 +107,18 @@ umber-jetbrains/
 │   │   ├── umber-espresso.theme.json
 │   │   ├── umber-charcoal.theme.json
 │   │   ├── umber-olive.theme.json
-│   │   └── umber-light.theme.json
+│   │   ├── umber-light.theme.json
+│   │   ├── umber-ivory.theme.json
+│   │   ├── umber-parchment.theme.json
+│   │   └── umber-cream.theme.json
 │   └── colors/
 │       ├── Umber_Espresso.xml
 │       ├── Umber_Charcoal.xml
 │       ├── Umber_Olive.xml
-│       └── Umber_Light.xml
+│       ├── Umber_Light.xml
+│       ├── Umber_Ivory.xml
+│       ├── Umber_Parchment.xml
+│       └── Umber_Cream.xml
 ├── LICENSE
 ├── CHANGELOG.md
 └── README.md

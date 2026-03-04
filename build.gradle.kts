@@ -20,8 +20,8 @@ intellijPlatform {
     pluginConfiguration {
         id = "com.themes.umber"
         name = "Umber"
-        version = "1.0.0"
-        description = "Umber — a warm, minimalistic theme family for JetBrains IDEs. Four variants: three dark (Espresso, Charcoal, Olive) and one light."
+        version = "0.3.0"
+        description = "Umber — a warm, minimalistic theme family for JetBrains IDEs. Seven variants: three dark (Espresso, Charcoal, Olive) and four light (Light, Ivory, Parchment, Cream)."
         vendor {
             name = "Theme Workshop"
         }

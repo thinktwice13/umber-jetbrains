@@ -1,34 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
   Umber Espresso — Espresso variant
-  Base background: #302b26 (noticeably warm, dark wood)
-  For A/B testing warm base colors.
+  Base background: #332c25 (noticeably warm, dark wood)
 -->
 <scheme name="Umber Espresso" version="142" parent_scheme="Darcula">
   <metaInfo>
     <property name="created">2026-02-28T00:00:00</property>
-    <property name="modified">2026-02-28T00:00:00</property>
+    <property name="modified">2026-03-03T00:00:00</property>
     <property name="originalScheme">Umber Espresso</property>
   </metaInfo>
 
   <colors>
     <!-- Editor chrome (warmed) -->
     <option name="CARET_COLOR" value="b6bcc4" />
-    <option name="CARET_ROW_COLOR" value="403c35" />
-    <option name="SELECTION_BACKGROUND" value="6b5d50" />
-    <option name="CONSOLE_BACKGROUND_KEY" value="302b26" />
-    <option name="GUTTER_BACKGROUND" value="302b26" />
-    <option name="LINE_NUMBERS_COLOR" value="524e47" />
-    <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="a8a198" />
-    <option name="INDENT_GUIDE" value="433e37" />
-    <option name="SELECTED_INDENT_GUIDE" value="524e47" />
-    <option name="VISUAL_INDENT_GUIDE" value="433e37" />
-    <option name="RIGHT_MARGIN_COLOR" value="433e37" />
-    <option name="WHITESPACES" value="433e37" />
-    <option name="DOCUMENTATION_COLOR" value="28231e" />
-    <option name="LOOKUP_COLOR" value="28231e" />
-    <option name="INFORMATION_HINT" value="28231e" />
-    <option name="READONLY_BACKGROUND" value="2b2621" />
+    <option name="CARET_ROW_COLOR" value="433d35" />
+    <option name="SELECTION_BACKGROUND" value="6e6053" />
+    <option name="CONSOLE_BACKGROUND_KEY" value="332c25" />
+    <option name="GUTTER_BACKGROUND" value="332c25" />
+    <option name="LINE_NUMBERS_COLOR" value="555047" />
+    <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="aaa298" />
+    <option name="INDENT_GUIDE" value="463f36" />
+    <option name="SELECTED_INDENT_GUIDE" value="555047" />
+    <option name="VISUAL_INDENT_GUIDE" value="463f36" />
+    <option name="RIGHT_MARGIN_COLOR" value="463f36" />
+    <option name="WHITESPACES" value="463f36" />
+    <option name="DOCUMENTATION_COLOR" value="2c251e" />
+    <option name="LOOKUP_COLOR" value="2c251e" />
+    <option name="INFORMATION_HINT" value="2c251e" />
+    <option name="READONLY_BACKGROUND" value="2e2821" />
 
     <!-- VCS gutter -->
     <option name="ADDED_LINES_COLOR" value="99C794" />
@@ -50,17 +49,17 @@
     <option name="FILESTATUS_changelistConflict" value="E15A60" />
 
     <!-- Search / find -->
-    <option name="ANNOTATIONS_COLOR" value="a8a198" />
+    <option name="ANNOTATIONS_COLOR" value="aaa298" />
 
     <!-- Scrollbar (warmed) -->
-    <option name="ScrollBar.Mac.thumbColor" value="3c3a3580" />
-    <option name="ScrollBar.Mac.hoverThumbColor" value="3c3a35" />
+    <option name="ScrollBar.Mac.thumbColor" value="403b3480" />
+    <option name="ScrollBar.Mac.hoverThumbColor" value="403b34" />
 
     <!-- Separators (warmed) -->
-    <option name="SEPARATOR_ABOVE_COLOR" value="433e37" />
-    <option name="SEPARATOR_BELOW_COLOR" value="433e37" />
-    <option name="TEARLINE_COLOR" value="433e37" />
-    <option name="SELECTED_TEARLINE_COLOR" value="524e47" />
+    <option name="SEPARATOR_ABOVE_COLOR" value="463f36" />
+    <option name="SEPARATOR_BELOW_COLOR" value="463f36" />
+    <option name="TEARLINE_COLOR" value="463f36" />
+    <option name="SELECTED_TEARLINE_COLOR" value="555047" />
 
     <!-- VCS annotations -->
     <option name="VCS_ANNOTATIONS_COLOR_1" value="C594C5" />
@@ -75,47 +74,47 @@
     <option name="TEXT">
       <value>
         <option name="FOREGROUND" value="c8c8c8" />
-        <option name="BACKGROUND" value="302b26" />
+        <option name="BACKGROUND" value="332c25" />
       </value>
     </option>
 
     <!-- ==================== COMMENTS (muted grey) ==================== -->
     <option name="DEFAULT_LINE_COMMENT">
       <value>
-        <option name="FOREGROUND" value="847b76" />
+        <option name="FOREGROUND" value="887f77" />
       </value>
     </option>
     <option name="DEFAULT_BLOCK_COMMENT">
       <value>
-        <option name="FOREGROUND" value="847b76" />
+        <option name="FOREGROUND" value="887f77" />
       </value>
     </option>
     <option name="DEFAULT_DOC_COMMENT">
       <value>
-        <option name="FOREGROUND" value="847b76" />
+        <option name="FOREGROUND" value="887f77" />
       </value>
     </option>
     <option name="DEFAULT_DOC_COMMENT_TAG">
       <value>
-        <option name="FOREGROUND" value="a8a198" />
+        <option name="FOREGROUND" value="aaa298" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="DEFAULT_DOC_COMMENT_TAG_VALUE">
       <value>
-        <option name="FOREGROUND" value="a8a198" />
+        <option name="FOREGROUND" value="aaa298" />
       </value>
     </option>
     <option name="DEFAULT_DOC_MARKUP">
       <value>
-        <option name="FOREGROUND" value="a8a198" />
+        <option name="FOREGROUND" value="aaa298" />
       </value>
     </option>
 
     <!-- ==================== KEYWORDS ==================== -->
     <option name="DEFAULT_KEYWORD">
       <value>
-        <option name="FOREGROUND" value="847b76" />
+        <option name="FOREGROUND" value="887f77" />
       </value>
     </option>
 
@@ -261,7 +260,7 @@
     <!-- ==================== ANNOTATIONS / METADATA ==================== -->
     <option name="DEFAULT_METADATA">
       <value>
-        <option name="FOREGROUND" value="847b76" />
+        <option name="FOREGROUND" value="887f77" />
       </value>
     </option>
     <option name="DEFAULT_LABEL">
@@ -293,14 +292,14 @@
     </option>
     <option name="DEFAULT_TEMPLATE_LANGUAGE_COLOR">
       <value>
-        <option name="BACKGROUND" value="373230" />
+        <option name="BACKGROUND" value="3a332c" />
       </value>
     </option>
 
     <!-- ==================== JAVASCRIPT / TYPESCRIPT ==================== -->
     <option name="JS:KEYWORD">
       <value>
-        <option name="FOREGROUND" value="847b76" />
+        <option name="FOREGROUND" value="887f77" />
       </value>
     </option>
     <option name="JS:STRING">
@@ -320,17 +319,17 @@
     </option>
     <option name="JS:LINE_COMMENT">
       <value>
-        <option name="FOREGROUND" value="847b76" />
+        <option name="FOREGROUND" value="887f77" />
       </value>
     </option>
     <option name="JS:BLOCK_COMMENT">
       <value>
-        <option name="FOREGROUND" value="847b76" />
+        <option name="FOREGROUND" value="887f77" />
       </value>
     </option>
     <option name="JS:DOC_COMMENT">
       <value>
-        <option name="FOREGROUND" value="847b76" />
+        <option name="FOREGROUND" value="887f77" />
       </value>
     </option>
     <option name="JS:PARAMETER">
@@ -375,14 +374,14 @@
     </option>
     <option name="JS.DECORATOR">
       <value>
-        <option name="FOREGROUND" value="847b76" />
+        <option name="FOREGROUND" value="887f77" />
       </value>
     </option>
 
     <!-- TypeScript-specific -->
     <option name="TS:KEYWORD">
       <value>
-        <option name="FOREGROUND" value="847b76" />
+        <option name="FOREGROUND" value="887f77" />
       </value>
     </option>
     <option name="TS:TYPE_PARAMETER">
@@ -466,7 +465,7 @@
     <!-- ==================== GO ==================== -->
     <option name="GO_KEYWORD">
       <value>
-        <option name="FOREGROUND" value="847b76" />
+        <option name="FOREGROUND" value="887f77" />
       </value>
     </option>
     <option name="GO_STRING">
@@ -486,7 +485,7 @@
     </option>
     <option name="GO_COMMENT">
       <value>
-        <option name="FOREGROUND" value="847b76" />
+        <option name="FOREGROUND" value="887f77" />
       </value>
     </option>
     <option name="GO_FUNCTION_DECLARATION">
@@ -670,32 +669,32 @@
     <!-- ==================== SEARCH / HIGHLIGHT (warmed) ==================== -->
     <option name="SEARCH_RESULT_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="394256" />
+        <option name="BACKGROUND" value="3b4456" />
       </value>
     </option>
     <option name="WRITE_SEARCH_RESULT_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="394256" />
+        <option name="BACKGROUND" value="3b4456" />
       </value>
     </option>
     <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="394256" />
+        <option name="BACKGROUND" value="3b4456" />
       </value>
     </option>
     <option name="IDENTIFIER_UNDER_CARET_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="504c45" />
+        <option name="BACKGROUND" value="534e45" />
       </value>
     </option>
     <option name="WRITE_IDENTIFIER_UNDER_CARET_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="504c45" />
+        <option name="BACKGROUND" value="534e45" />
       </value>
     </option>
     <option name="MATCHED_BRACE_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="504c45" />
+        <option name="BACKGROUND" value="534e45" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
@@ -740,34 +739,34 @@
     <!-- ==================== INJECTED LANGUAGE ==================== -->
     <option name="INJECTED_LANGUAGE_FRAGMENT">
       <value>
-        <option name="BACKGROUND" value="373230" />
+        <option name="BACKGROUND" value="3a332c" />
       </value>
     </option>
 
     <!-- ==================== INLAY HINTS (warmed) ==================== -->
     <option name="INLINE_PARAMETER_HINT">
       <value>
-        <option name="FOREGROUND" value="a8a198" />
-        <option name="BACKGROUND" value="433e37" />
+        <option name="FOREGROUND" value="aaa298" />
+        <option name="BACKGROUND" value="463f36" />
       </value>
     </option>
     <option name="INLINE_PARAMETER_HINT_CURRENT">
       <value>
         <option name="FOREGROUND" value="c8c8c8" />
-        <option name="BACKGROUND" value="524e47" />
+        <option name="BACKGROUND" value="555047" />
       </value>
     </option>
     <option name="INLINE_PARAMETER_HINT_HIGHLIGHTED">
       <value>
         <option name="FOREGROUND" value="c8c8c8" />
-        <option name="BACKGROUND" value="524e47" />
+        <option name="BACKGROUND" value="555047" />
       </value>
     </option>
 
     <!-- ==================== BREADCRUMBS ==================== -->
     <option name="BREADCRUMBS_DEFAULT">
       <value>
-        <option name="FOREGROUND" value="847b76" />
+        <option name="FOREGROUND" value="887f77" />
       </value>
     </option>
     <option name="BREADCRUMBS_HOVERED">
@@ -782,15 +781,15 @@
     </option>
     <option name="BREADCRUMBS_INACTIVE">
       <value>
-        <option name="FOREGROUND" value="524e47" />
+        <option name="FOREGROUND" value="555047" />
       </value>
     </option>
 
     <!-- ==================== FOLDED TEXT (warmed) ==================== -->
     <option name="FOLDED_TEXT_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="a8a198" />
-        <option name="BACKGROUND" value="373230" />
+        <option name="FOREGROUND" value="aaa298" />
+        <option name="BACKGROUND" value="3a332c" />
       </value>
     </option>
 
@@ -811,7 +810,7 @@
     </option>
     <option name="WEAK WARNING_ATTRIBUTES">
       <value>
-        <option name="EFFECT_COLOR" value="847b76" />
+        <option name="EFFECT_COLOR" value="887f77" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
@@ -823,7 +822,7 @@
     </option>
     <option name="DEPRECATED_ATTRIBUTES">
       <value>
-        <option name="EFFECT_COLOR" value="a8a198" />
+        <option name="EFFECT_COLOR" value="aaa298" />
         <option name="EFFECT_TYPE" value="3" />
       </value>
     </option>
@@ -835,7 +834,7 @@
     </option>
     <option name="NOT_USED_ELEMENT_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="524e47" />
+        <option name="FOREGROUND" value="555047" />
       </value>
     </option>
     <option name="TYPO">
@@ -875,7 +874,7 @@
     <!-- ==================== UNUSED / DEAD CODE ==================== -->
     <option name="UNUSED_SYMBOL">
       <value>
-        <option name="FOREGROUND" value="524e47" />
+        <option name="FOREGROUND" value="555047" />
       </value>
     </option>
   </attributes>

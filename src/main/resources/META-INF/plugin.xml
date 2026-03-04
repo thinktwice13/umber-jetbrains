@@ -3,47 +3,66 @@
     <name>Umber</name>
     <vendor>Theme Workshop</vendor>
     <description><![CDATA[
-        <h2>Umber — A Warm Theme Family</h2>
-        <p>Four carefully crafted variants built around warm, earthy tones and muted syntax highlighting.</p>
+        <p><b>Warm, earthy themes that are easy on your eyes all day.</b></p>
 
-        <h3>Variants</h3>
+        <h3>Seven Variants</h3>
         <ul>
-            <li><b>Espresso</b> — Rich brown dark theme (<code>#302b26</code>)</li>
-            <li><b>Charcoal</b> — Warm grey dark theme (<code>#2d2a27</code>)</li>
-            <li><b>Olive</b> — Forest green dark theme (<code>#263020</code>)</li>
-            <li><b>Light</b> — Warm beige light theme (<code>#f5f0e8</code>) with background-highlight syntax</li>
+            <li><b>Espresso</b> — Rich brown, coffee and mahogany (<code>#332c25</code>)</li>
+            <li><b>Charcoal</b> — Warm grey, stone and driftwood (<code>#2d2a27</code>)</li>
+            <li><b>Olive</b> — Olive green, moss and earth (<code>#282f22</code>)</li>
+            <li><b>Light</b> — Warm beige, parchment and linen (<code>#f5f0e8</code>)</li>
+            <li><b>Ivory</b> — Bright, gentle warmth like morning light (<code>#faf8f3</code>)</li>
+            <li><b>Parchment</b> — Old book paper, quiet and neutral (<code>#f7f5f0</code>)</li>
+            <li><b>Cream</b> — Soft yellow warmth, afternoon sun (<code>#f8f7f2</code>)</li>
         </ul>
+
+        <h3>Islands UI Native</h3>
+        <p>Full support for JetBrains Islands UI (2025.3+) with rounded islands, transparent borders, and contrast window backgrounds. Same plugin works on classic UI (2024.3+) with no visual regression.</p>
 
         <h3>Design</h3>
         <ul>
             <li>Muted keywords that don't compete with your code</li>
             <li>Soft accent color (<code>#6699CC</code>) for functions and links</li>
             <li>Warm, low-fatigue backgrounds across all UI surfaces</li>
-            <li>Light variant uses background highlighting instead of text color for syntax</li>
+            <li>Light variants use background highlighting instead of text color for syntax</li>
         </ul>
 
-        <h3>Accessibility</h3>
+        <h3>Contrast &amp; Accessibility</h3>
         <ul>
-            <li>WCAG AA contrast (4.5:1) on all syntax tokens</li>
-            <li>Colorblind-safe palette — blue vs warm/amber axis, no red-vs-green reliance</li>
-            <li>Errors indicated by underlines, not color alone</li>
+            <li><b>Dark variants</b> — text 9.5:1, strings 7.2:1, numbers 6.8:1, functions 10.5:1 against background</li>
+            <li><b>Light variants</b> — text 12.8:1, comments 5.2:1 against background</li>
+            <li>Keywords and comments intentionally muted (~3.8:1 in dark) to reduce visual noise — still above the 3:1 large-text threshold</li>
+            <li><b>Colorblind-safe</b> — palette uses blue vs warm/amber axis, errors indicated by underlines not color alone</li>
         </ul>
 
         <p>Tuned for <b>TypeScript</b> and <b>Go</b>, with solid defaults for JSON, YAML, CSS, HTML, and Markdown.</p>
+
+        <p><i>Also available for <a href="https://github.com/thinktwice13/umber-ghostty">Ghostty terminal</a>.</i></p>
     ]]></description>
     <change-notes><![CDATA[
+        <h3>0.3.0</h3>
+        <ul>
+            <li>Native Islands UI support (JetBrains 2025.3+) — rounded islands, transparent borders, MainWindow contrast backgrounds</li>
+            <li>Backward compatible — same ZIP works on 2024.3+ classic UI with no visual regression</li>
+            <li>Added marketing materials and code snippets for showcase screenshots</li>
+        </ul>
+        <h3>0.2.0</h3>
+        <ul>
+            <li>Rebalanced dark variant backgrounds for better perceptual spacing from Charcoal</li>
+            <li>Added three new light variants: Ivory, Parchment, Cream</li>
+            <li>Fixed blue-tinted syntax backgrounds in light theme (now warm honey/sand/beige)</li>
+        </ul>
         <h3>1.0.0</h3>
         <ul>
             <li>Initial release with four variants: Espresso, Charcoal, Olive, Light</li>
-            <li>Full UI theming — editor, sidebar, tabs, tool windows, status bar, popups, buttons, inputs, scrollbars</li>
-            <li>Complete syntax highlighting with WCAG AA contrast compliance</li>
-            <li>Language-specific tuning for TypeScript and Go</li>
-            <li>Diff viewer, terminal ANSI colors, and VCS annotation colors</li>
         </ul>
     ]]></change-notes>
     <depends>com.intellij.modules.platform</depends>
     <extensions defaultExtensionNs="com.intellij">
         <themeProvider id="com.themes.umber.light" path="/themes/umber-light.theme.json"/>
+        <themeProvider id="com.themes.umber.ivory" path="/themes/umber-ivory.theme.json"/>
+        <themeProvider id="com.themes.umber.parchment" path="/themes/umber-parchment.theme.json"/>
+        <themeProvider id="com.themes.umber.cream" path="/themes/umber-cream.theme.json"/>
         <themeProvider id="com.themes.umber.espresso" path="/themes/umber-espresso.theme.json"/>
         <themeProvider id="com.themes.umber.charcoal" path="/themes/umber-charcoal.theme.json"/>
         <themeProvider id="com.themes.umber.olive" path="/themes/umber-olive.theme.json"/>

@@ -3,8 +3,10 @@
   "dark": false,
   "author": "Theme Workshop",
   "editorScheme": "/colors/Umber_Light.xml",
+  "parentTheme": "Islands Light",
   "colors": {
     "bgBase": "#f5f0e8",
+    "bgWindow": "#d5cfc5",
     "bgChrome": "#ece7df",
     "bgPanel": "#e4dfd7",
     "bgElevated": "#f5f0e8",
@@ -22,7 +24,8 @@
     "red": "#c05030",
     "green": "#6a8a50",
     "yellow": "#b08030",
-    "purple": "#8a6080"
+    "purple": "#8a6080",
+    "transparent": "#00000000"
   },
   "ui": {
     "*": {
@@ -65,7 +68,7 @@
 
     "StatusBar.background": "bgChrome",
     "StatusBar.foreground": "fgSecondary",
-    "StatusBar.borderColor": "border",
+    "StatusBar.borderColor": "transparent",
     "StatusBar.hoverBackground": "bgHover",
     "StatusBar.Widget.hoverBackground": "bgHover",
 
@@ -204,7 +207,7 @@
     "SearchField.errorBackground": "#f0ddd5",
 
     "DiffColor.INSERTED": "#dbe8d0",
-    "DiffColor.MODIFIED": "#d8e0f0",
+    "DiffColor.MODIFIED": "#e0d8c8",
     "DiffColor.DELETED": "#f0d8d0",
     "DiffColor.CONFLICT": "#f0e0c0",
 
@@ -232,6 +235,14 @@
 
     "Terminal.background": "bgBase",
     "Terminal.foreground": "fgPrimary",
+
+    "MainWindow.background": "bgWindow",
+    "Island.borderColor": "bgChrome",
+    "ToolWindow.Stripe.borderColor": "transparent",
+    "MainToolbar.borderColor": "transparent",
+    "EditorTabs.underlinedBorderColor": "accent",
+    "EditorTabs.inactiveUnderlinedTabBorderColor": "fgDisabled",
+    "EditorTabs.inactiveUnderlinedTabBackground": "bgPanel",
 
     "FileColor.Blue": "#e8eef5",
     "FileColor.Green": "#e8f0e4",

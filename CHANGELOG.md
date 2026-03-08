@@ -4,6 +4,16 @@ All notable changes to Umber will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [0.4.0] - 2026-03-08
+
+### Added
+
+- **Dark terminal ANSI colors** — all 3 dark variants now define 16 ANSI console colors derived from the syntax palette (previously fell back to Darcula defaults)
+- Extended YAML tokens: comment, anchor, alias, tag, sign, text, scalar list/string
+- Extended Markdown tokens: code block/fence, link destination, lists, blockquote, horizontal rule, strikethrough, image, table separator
+- Extended JSON tokens: line/block comments (JSONC), escape sequences, explicit string/number colors
+- Light variants now have full YAML, Markdown, and JSON token definitions with variant-specific background highlights
+
 ## [0.3.0] - 2026-03-03
 
 ### Added

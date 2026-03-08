@@ -576,6 +576,31 @@
         <option name="FOREGROUND" value="91c5d3" />
       </value>
     </option>
+    <option name="JSON.LINE_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="827d79" />
+      </value>
+    </option>
+    <option name="JSON.BLOCK_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="827d79" />
+      </value>
+    </option>
+    <option name="JSON.VALID_ESCAPE">
+      <value>
+        <option name="FOREGROUND" value="91c5d3" />
+      </value>
+    </option>
+    <option name="JSON.STRING">
+      <value>
+        <option name="FOREGROUND" value="a9cfa4" />
+      </value>
+    </option>
+    <option name="JSON.NUMBER">
+      <value>
+        <option name="FOREGROUND" value="91c5d3" />
+      </value>
+    </option>
 
     <!-- ==================== CSS ==================== -->
     <option name="CSS.PROPERTY_NAME">
@@ -615,6 +640,46 @@
         <option name="FOREGROUND" value="a9cfa4" />
       </value>
     </option>
+    <option name="YAML_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="827d79" />
+      </value>
+    </option>
+    <option name="YAML_ANCHOR">
+      <value>
+        <option name="FOREGROUND" value="91c5d3" />
+      </value>
+    </option>
+    <option name="YAML_ALIAS">
+      <value>
+        <option name="FOREGROUND" value="91c5d3" />
+      </value>
+    </option>
+    <option name="YAML_TAG">
+      <value>
+        <option name="FOREGROUND" value="827d79" />
+      </value>
+    </option>
+    <option name="YAML_SIGN">
+      <value>
+        <option name="FOREGROUND" value="c8c8c8" />
+      </value>
+    </option>
+    <option name="YAML_TEXT">
+      <value>
+        <option name="FOREGROUND" value="c8c8c8" />
+      </value>
+    </option>
+    <option name="YAML_SCALAR_LIST">
+      <value>
+        <option name="FOREGROUND" value="a9cfa4" />
+      </value>
+    </option>
+    <option name="YAML_SCALAR_STRING">
+      <value>
+        <option name="FOREGROUND" value="a9cfa4" />
+      </value>
+    </option>
 
     <!-- ==================== MARKDOWN ==================== -->
     <option name="MARKDOWN_HEADER">
@@ -642,6 +707,61 @@
     <option name="MARKDOWN_LINK_TEXT">
       <value>
         <option name="FOREGROUND" value="91c5d3" />
+      </value>
+    </option>
+    <option name="MARKDOWN_CODE_BLOCK">
+      <value>
+        <option name="BACKGROUND" value="34312e" />
+      </value>
+    </option>
+    <option name="MARKDOWN_CODE_FENCE">
+      <value>
+        <option name="FOREGROUND" value="827d79" />
+      </value>
+    </option>
+    <option name="MARKDOWN_LINK_DESTINATION">
+      <value>
+        <option name="FOREGROUND" value="6699CC" />
+        <option name="EFFECT_COLOR" value="6699CC" />
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="MARKDOWN_UNORDERED_LIST">
+      <value>
+        <option name="FOREGROUND" value="ffe2a9" />
+      </value>
+    </option>
+    <option name="MARKDOWN_ORDERED_LIST">
+      <value>
+        <option name="FOREGROUND" value="ffe2a9" />
+      </value>
+    </option>
+    <option name="MARKDOWN_BLOCK_QUOTE">
+      <value>
+        <option name="FOREGROUND" value="827d79" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="MARKDOWN_HORIZONTAL_RULE">
+      <value>
+        <option name="FOREGROUND" value="4f4e49" />
+      </value>
+    </option>
+    <option name="MARKDOWN_STRIKETHROUGH">
+      <value>
+        <option name="FOREGROUND" value="827d79" />
+        <option name="EFFECT_COLOR" value="827d79" />
+        <option name="EFFECT_TYPE" value="3" />
+      </value>
+    </option>
+    <option name="MARKDOWN_IMAGE">
+      <value>
+        <option name="FOREGROUND" value="91c5d3" />
+      </value>
+    </option>
+    <option name="MARKDOWN_TABLE_SEPARATOR">
+      <value>
+        <option name="FOREGROUND" value="4f4e49" />
       </value>
     </option>
 
@@ -877,6 +997,88 @@
       <value>
         <option name="FOREGROUND" value="4f4e49" />
       </value>
+    </option>
+
+    <!-- ==================== CONSOLE / TERMINAL ==================== -->
+    <option name="CONSOLE_NORMAL_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="c8c8c8" />
+      </value>
+    </option>
+    <option name="CONSOLE_ERROR_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="E15A60" />
+      </value>
+    </option>
+    <option name="CONSOLE_USER_INPUT">
+      <value>
+        <option name="FOREGROUND" value="c8c8c8" />
+      </value>
+    </option>
+    <option name="CONSOLE_SYSTEM_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="827d79" />
+      </value>
+    </option>
+    <option name="LOG_ERROR_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="E15A60" />
+      </value>
+    </option>
+    <option name="LOG_WARNING_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="ffe2a9" />
+      </value>
+    </option>
+
+    <!-- ANSI colors (dark-optimized, from syntax palette) -->
+    <option name="CONSOLE_BLACK_OUTPUT">
+      <value><option name="FOREGROUND" value="2d2a27" /></value>
+    </option>
+    <option name="CONSOLE_DARK_GRAY_OUTPUT">
+      <value><option name="FOREGROUND" value="4f4e49" /></value>
+    </option>
+    <option name="CONSOLE_GRAY_OUTPUT">
+      <value><option name="FOREGROUND" value="827d79" /></value>
+    </option>
+    <option name="CONSOLE_WHITE_OUTPUT">
+      <value><option name="FOREGROUND" value="c8c8c8" /></value>
+    </option>
+    <option name="CONSOLE_RED_OUTPUT">
+      <value><option name="FOREGROUND" value="E15A60" /></value>
+    </option>
+    <option name="CONSOLE_RED_BRIGHT_OUTPUT">
+      <value><option name="FOREGROUND" value="f1a5ab" /></value>
+    </option>
+    <option name="CONSOLE_GREEN_OUTPUT">
+      <value><option name="FOREGROUND" value="99C794" /></value>
+    </option>
+    <option name="CONSOLE_GREEN_BRIGHT_OUTPUT">
+      <value><option name="FOREGROUND" value="a9cfa4" /></value>
+    </option>
+    <option name="CONSOLE_YELLOW_OUTPUT">
+      <value><option name="FOREGROUND" value="ffe2a9" /></value>
+    </option>
+    <option name="CONSOLE_YELLOW_BRIGHT_OUTPUT">
+      <value><option name="FOREGROUND" value="ffe8c0" /></value>
+    </option>
+    <option name="CONSOLE_BLUE_OUTPUT">
+      <value><option name="FOREGROUND" value="6699CC" /></value>
+    </option>
+    <option name="CONSOLE_BLUE_BRIGHT_OUTPUT">
+      <value><option name="FOREGROUND" value="88b4dd" /></value>
+    </option>
+    <option name="CONSOLE_MAGENTA_OUTPUT">
+      <value><option name="FOREGROUND" value="C594C5" /></value>
+    </option>
+    <option name="CONSOLE_MAGENTA_BRIGHT_OUTPUT">
+      <value><option name="FOREGROUND" value="d4aad4" /></value>
+    </option>
+    <option name="CONSOLE_CYAN_OUTPUT">
+      <value><option name="FOREGROUND" value="91c5d3" /></value>
+    </option>
+    <option name="CONSOLE_CYAN_BRIGHT_OUTPUT">
+      <value><option name="FOREGROUND" value="a8d8e4" /></value>
     </option>
   </attributes>
 </scheme>
